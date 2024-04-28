@@ -41,10 +41,10 @@ p {
   font-size: 16px;
 }
 
-#hero {
+.hero {
   height: 800px;
-  width: auto;
-  background-image: url("../images/digital-marketing-meeting.jpg");
+  width: 100%;
+  background-image: url("./assets/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
 }

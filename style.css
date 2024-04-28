@@ -70,13 +70,13 @@ p {
 
 #float-left {
   float: left;
-  margin-left: 25px;
+  
   max-height: 200px;
 }
 
 #float-right {
   float: right;
-  margin-left: 25px;
+  
   max-height: 200px;
 }
 
@@ -84,7 +84,7 @@ p {
   margin-right: 10px;
   float: right;
   width: 20%;
-  height: auto;
+  height: 100%;
   background-color: #2589bd;
   text-align: center;
   color: #ffffff;
@@ -106,17 +106,9 @@ p {
   max-height: 150px;
 }
 
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.search-engine-optimization h2,
+.online-reputation-management,
+.social-media-marketing {
   margin-bottom: 20px;
   font-size: 36px;
 }

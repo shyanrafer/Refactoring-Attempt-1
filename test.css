@@ -93,6 +93,10 @@ h3 {
   margin: 10px auto;
   max-height: 150px;
   max-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .text-box {
@@ -103,15 +107,7 @@ h3 {
   color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management,
-.social-media-marketing {
+.benefit h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -121,8 +117,9 @@ h3 {
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   float: left;
+  color: black;
 }
 
-.footer h2 {
+#footer h2 {
   font-size: 20px;
 }

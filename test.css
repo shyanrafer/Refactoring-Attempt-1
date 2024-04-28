@@ -10,11 +10,11 @@ body {
 }
 
 .header {
-  padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
   width: 100%;
+  padding: 20px;
 }
 
 #header-h1 {
@@ -44,12 +44,13 @@ a {
   background-image: url("./assets/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+  padding: 20px;
 }
 
 .content {
   width: 75%;
   font-size: 16px;
-  background-color: color: #ffffff;
+  background-color: color #ffffff;
 }
 
 .text-box {

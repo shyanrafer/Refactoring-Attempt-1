@@ -13,6 +13,8 @@ body {
   color: #ffffff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #header-h1 {
@@ -27,9 +29,15 @@ body {
 .header-ul-li {
   list-style-type: none;
   font-size: 20px;
-  padding-right: 20px;
+  padding-top: 20px;
   color: #ffffff;
 }  
+
+li {
+  display: inline;
+  padding: 20px;
+  
+}
 
 a {
   color: #ffffff;
@@ -50,6 +58,7 @@ a {
   background-color: color #ffffff;
   padding-top: 10px;
   padding-left: 10px;
+
 }
 
 .text-box {
@@ -58,21 +67,9 @@ a {
   height: 300px;
   background-color: #0072bb;
   color: #ffffff;
-  position: relative;
+
 }
 
-.benefit h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  
-}
-
-#paragraph-spacing {
-  position: absolute;
-  bottom: 0;
-
-  
-}
 
 .float-left {
   float: left;
@@ -90,7 +87,7 @@ a {
   clear: both;
   float: right;
   width: 20%;
-  height: 100%;
+  height: auto;
   background-color: #2589bd;
   margin-bottom: 10px;
   text-align: center;
@@ -110,9 +107,7 @@ h3 {
 .benefit-img {
   max-height: 150px;
   max-width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
 }
 
 

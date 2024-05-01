@@ -6,6 +6,8 @@
 
 body {
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header {
@@ -15,6 +17,7 @@ body {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 #header-h1 {
@@ -70,11 +73,16 @@ a {
 
 }
 
+#main-paragraph {
+
+}
+
 
 .float-left {
   float: left;
   margin-right: 25px;
   max-height: 200px;
+  vertical-align: center;
 }
 
 .float-right {
@@ -85,13 +93,13 @@ a {
 
 .benefits-column {
   clear: both;
-  float: right;
   width: 20%;
   height: auto;
   background-color: #2589bd;
   margin-bottom: 10px;
   text-align: center;
   color: #ffffff;
+  margin: 10px;
 }
 
 .benefit-lead,
@@ -115,10 +123,6 @@ h3 {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  float: left;
   color: black;
 }
 
-#footer h2 {
-  font-size: 20px;
-}

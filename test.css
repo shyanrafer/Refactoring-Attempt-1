@@ -124,6 +124,8 @@ h3 {
   margin-bottom: 10px;
 }
 
+/* consolidated all column images into this class */
+
 .benefit-img {
   max-height: 150px;
   max-width: 150px;

@@ -124,6 +124,11 @@ h3 {
   margin-bottom: 10px;
 }
 
+/*added padding to top header of column*/
+
+#column-h3 {
+  padding-top: 15px;
+}
 /* consolidated all column images into this class */
 
 .benefit-img {
@@ -132,11 +137,7 @@ h3 {
   align-content: center;
 }
 
+/*removed footer as it doesn't seem to appear on the example*/
 
-.footer {
-  padding: 30px;
-  clear: both;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: black;
-}
+
 
